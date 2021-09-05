@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.nav-link {
+  color: rgb(110, 19, 150);
+  margin-right: 60px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-link:hover{
+  color: rgb(189, 32, 189);
+}
+
+.navbar-brand img {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.navbar {
+  width: 100%;
+  background: lightgrey;
+}
+
+footer {
+  margin-top: 50px;
+  background: lightgrey;
+  border-top: 10px;
+  box-shadow: 0 0 30px grey;
+}
+
+#banner img {
+  margin-bottom: 50px;
+  border-bottom: 10px solid lightgrey;
+  box-shadow: 0 0 30px grey;
+}
+
+div h5, h2, h1{
+  margin-top: 30px;
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
+  text-align: center;
+
+}
+
+div h1 {
+  color: blueviolet;
+  margin-top: 10px;
+}
+
+div h3 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: darkviolet;
+}
+div h4 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+#banner img {
+  width: 100%;
+}
+
+.div curriculo {
+  width: 80%;
 }
